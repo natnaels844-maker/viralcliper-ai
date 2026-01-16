@@ -1,11 +1,23 @@
-<div align="center">
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+# ViralClip AI - YouTube Auto-Clipper
 
-  <h1>Built with AI Studio</h2>
+An AI-powered application that transforms long-form YouTube videos into viral Shorts using Gemini 3.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## 🚀 Deployment Guide
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+### 1. Environment Variables
+You must set the following variable in your hosting provider (Vercel, Netlify, etc.):
+- `API_KEY`: Your Google Gemini API Key.
 
-</div>
+### 2. Deployment Steps (Vercel)
+1. Push this code to a GitHub repository.
+2. Go to [vercel.com](https://vercel.com) and click **"Add New Project"**.
+3. Import your repository.
+4. In the **Environment Variables** section, add `API_KEY`.
+5. Click **Deploy**.
+
+## 🛠 Tech Stack
+- **AI**: Gemini 3 Flash Preview
+- **Frontend**: React 19 + TypeScript
+- **Styling**: Tailwind CSS
+- **Icons**: FontAwesome 6
