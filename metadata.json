@@ -1,0 +1,8 @@
+{
+  "name": "ViralClip AI - YouTube Auto-Shorts",
+  "description": "An AI-powered tool that automatically extracts viral-worthy shorts from long YouTube videos and schedules them for publishing. Leverage Gemini to find high-impact moments and optimize for engagement.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
